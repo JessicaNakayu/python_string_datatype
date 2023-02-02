@@ -34,8 +34,9 @@ print(my_first_name[0])
 #       - second letter of your last name (use the -index)
 print(my_last_name[-5])
 #       - first two letter of your first name (use the +index)
-print(my_first_name[0,1])
+print(my_first_name[0], my_first_name[1])
 #       - second two letter of your last name (use the -index)
+print(my_last_name[-4], my_last_name[-5])
 
 
 
@@ -43,8 +44,9 @@ print(my_first_name[0,1])
 #TODO Combining Strings
 #   - Print the following items (one per line) (print using variables)
 #       -first name and last name combined
+print(my_first_name, my_last_name)
 #       -first name six times
-
+print(my_first_name, my_first_name, my_first_name, my_first_name, my_first_name, my_first_name)
 
 
 
@@ -52,8 +54,9 @@ print(my_first_name[0,1])
 # TODO Formatting Strings
 #   - Print the following items (one per line) (print using variables)
 #       - first name last name -was born in- year of birth
+print(my_first_name, my_last_name +  str(' was born in'), my_year_of_birth)
 #       - first name last name -was born in- year of birth. first name -enjoyed celebrating- current year
-
+print(my_first_name, my_last_name, str('was born in'), my_year_of_birth, str('.'), my_first_name, str('enjoyed celebrating'), current_year)
 
 
 # TODO Escape characters
